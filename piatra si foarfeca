@@ -1,0 +1,39 @@
+# import tkinter as tk
+# from tkinter import messagebox
+# import random
+# def verif(pc, om):
+#     if pc == om:
+#         return 'egal'
+#     elif pc == "piatra" and om == "foarfeca":
+#         return 'ai pierdut'
+#     elif pc == "hartie" and om == "piatra":
+#         return 'ai pierdut'
+#     elif pc == "foarfeca" and om == "hartie":
+#         return 'ai pierdut'
+#     else:
+#         return 'ai castigat'
+# def joc(om):
+#     lista = ['piatra', 'foarfeca', 'hartie']
+#     pc = random.choice(lista)
+#     rezultat = verif(pc,om)
+#     messagebox.showinfo('Rezultat', f"Ai ales: {om} \n Calculatorul a ales: {pc}\n {rezultat}")
+
+# def window():
+#     window = tk.Tk()
+#     window.title('Piatra, Foarfeca, Hartie')
+#     window.geometry('360x60')
+
+#     titlu = tk.Label(window,text = 'Optiunea ta: ', borderwidth = 5, border = 10, font = 10)
+#     titlu.grid(row = 1, column = 0)
+
+#     piatra = tk.Button(window, text = 'Piatra', borderwidth = 5, padx = 10, pady = 10,command = lambda: joc('piatra'))
+#     piatra.grid(row = 1, column = 1)
+
+#     foarfeca = tk.Button(window, text = 'Foarfeca', borderwidth = 5, padx = 10, pady = 10,command = lambda: joc('foarfeca'))
+#     foarfeca.grid(row = 1, column = 2)
+
+#     hartie = tk.Button(window, text = 'Hartie', borderwidth = 5, padx = 10, pady = 10,command = lambda: joc('hartie'))
+#     hartie.grid(row = 1, column = 3)
+
+# window()
+# tk.mainloop()
